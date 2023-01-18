@@ -1,0 +1,13 @@
+/* Extend que configura grids sin bootstrap*/
+%grid-config{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+
+/* Extend que marca el estilo del borde punteado*/
+%dashed-border{
+    border: dashed nth($colors,5);
+    border-radius: 2rem;
+    padding: 1%;
+}

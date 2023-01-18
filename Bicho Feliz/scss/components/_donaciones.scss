@@ -1,0 +1,37 @@
+.seccion-principal{
+    margin: 1% 5%;
+}
+
+/* Estilos a la seccion con los botones para donar*/
+.donaciones{
+    margin: 2% 5%;
+    @extend %dashed-border;
+
+    .donaciones-item{
+        place-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1%;
+    }
+}
+
+/* Estilos a la seccion con parrafo y video sobre donaciones*/
+.detalles-donaciones{
+    display: flex;
+    margin: 2% 5%;
+    flex-direction: column;
+    @extend %dashed-border;
+
+    .explicacion-donaciones-container{
+        @extend %grid-config;
+        
+        #objetivo-donaciones{
+            margin-right: 5%;
+        }
+    }
+}
+
+#vid-donaciones{
+    width: 80%;
+}
+

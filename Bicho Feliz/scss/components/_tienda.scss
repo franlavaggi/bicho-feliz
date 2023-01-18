@@ -1,0 +1,15 @@
+/* Ataca a la seccion principal de tienda*/
+.seccion-principal-tienda{
+    margin: 1% 5%;
+}
+
+    .tienda-grid-item{
+        place-items: center;
+        text-align: center;
+
+        /*Ataca a todas las imagenes de la tienda */
+        .img-tienda{
+        width: 35%;
+        }
+    }
+
