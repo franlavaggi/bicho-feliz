@@ -1,4 +1,10 @@
 @charset "UTF-8";
+
+/* Importo los archivos de apoyo */
+
+@import 'base/colors.scss';
+@import 'base/root';
+/*@import 'components/adopciones';*/
 /* Defino los colores de la paleta de la casita de Esther */
 :root {
   font-family: "Questrial", sans-serif !important;
@@ -34,11 +40,13 @@
   background-size: cover;
   /*Estilo a los botones de donar y adoptar de la home page*/
 }
+
 .seccion-principal-home .h1-home {
   color: #FBD75A;
   margin-top: 3%;
   font-size: 2.5em;
 }
+
 .seccion-principal-home .buttons-container {
   font-size: 1em;
   display: flex;
@@ -57,9 +65,11 @@
   /* Estilo al parrafo de quienes somos*/
   /*Estilo a la imagen de quienes somos */
 }
+
 #presentacion-container #parrafo-presentacion {
   font-size: 1.5rem;
 }
+
 #presentacion-container #foto-presentacion {
   width: 100%;
 }
@@ -84,6 +94,7 @@
   padding: 10px;
   border: 2px solid burlywood;
 }
+
 .button:hover {
   color: #573D1C;
   background-color: burlywood;
@@ -114,6 +125,7 @@
   padding: 10px;
   border: 2px solid burlywood;
 }
+
 .button-adopciones:hover {
   color: #573D1C;
   background-color: burlywood;
@@ -121,7 +133,7 @@
 
 /* Estilo al contenedor de la barra de navegacion*/
 .menu-container {
-  background-color: #FFB4A2;
+  background-color: nth($colors, 2);
   border-radius: 15px;
   width: 100%;
   display: flex;
@@ -129,15 +141,17 @@
 }
 
 .navbar {
-  background-color: #FFB4A2 !important;
+  background-color: nth($colors, 4) !important;
   /* Estilo al ul correspondiente al menú */
 }
+
 .navbar .menu {
   width: 100%;
   display: flex;
   justify-content: space-around;
   /* Estilo a los elementos del ul de la barra de navegación*/
 }
+
 .navbar .menu .menu-anchor {
   background-color: #FBD75A;
   font-size: 1.3rem;
@@ -147,6 +161,7 @@
   padding: 7px;
   border: 1px solid burlywood;
 }
+
 .navbar .menu .menu-anchor:hover {
   color: #573D1C;
   background-color: burlywood;
@@ -157,6 +172,7 @@
   width: 6rem;
   transition-duration: 1s;
 }
+
 #logo:hover {
   transform: scale(1.3);
 }
@@ -166,6 +182,7 @@
   height: 100%;
   transition-duration: 3s;
 }
+
 #paw:hover {
   transform: rotate(1800deg);
 }
@@ -178,13 +195,16 @@
 #adopciones-grid-container {
   margin: 0 5%;
 }
+
 #adopciones-grid-container .adopciones-grid-item {
   place-items: center;
   text-align: center;
 }
+
 #adopciones-grid-container .adopciones-grid-item .adopciones-title {
   margin: 0;
 }
+
 #adopciones-grid-container .adopciones-grid-item .img-adopciones {
   width: 70%;
   margin: 5%;
@@ -198,6 +218,7 @@
 .donaciones {
   margin: 2% 5%;
 }
+
 .donaciones .donaciones-item {
   place-items: center;
   display: flex;
@@ -211,6 +232,7 @@
   margin: 2% 5%;
   flex-direction: column;
 }
+
 .detalles-donaciones .explicacion-donaciones-container #objetivo-donaciones {
   margin-right: 5%;
 }
@@ -227,11 +249,13 @@ footer {
   align-content: center;
   height: 30px;
 }
+
 footer .footer-container {
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
+
 footer .footer-container .redes {
   height: 100%;
 }
@@ -249,11 +273,13 @@ footer .footer-container .redes {
   /*padding: 3% 5%;
   margin: 0 5%;*/
 }
+
 #tienda-grid-container .tienda-grid-item {
   place-items: center;
   text-align: center;
   /*Ataca a todas las imagenes de la tienda */
 }
+
 #tienda-grid-container .tienda-grid-item .img-tienda {
   width: 35%;
 }
@@ -273,6 +299,7 @@ footer .footer-container .redes {
   background-size: cover;
   /* Estilo al titulo y texto de la seccion ppal de voluntariado*/
 }
+
 .seccion-principal-voluntariado #title-voluntariado-container {
   width: 80%;
   font-size: 2.2em;
@@ -283,6 +310,7 @@ footer .footer-container .redes {
   margin: 2%;
   /* Estilo al texto de la seccion ppal de voluntariado */
 }
+
 .seccion-principal-voluntariado #title-voluntariado-container #texto-principal-voluntariado {
   color: #FBD75A;
   font-size: 0.9em;
@@ -296,3 +324,5 @@ footer .footer-container .redes {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.scss.map */

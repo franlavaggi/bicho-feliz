@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/* Importo los archivos de apoyo */
+/* Defino los colores de la paleta de la casita de Esther */
+:root {
+  font-family: "Questrial", sans-serif !important;
+  background-color: white;
+}
+
+/*@import 'components/adopciones';*/
 /* Defino los colores de la paleta de la casita de Esther */
 :root {
   font-family: "Questrial", sans-serif !important;
@@ -127,7 +135,7 @@
 
 /* Estilo al contenedor de la barra de navegacion*/
 .menu-container {
-  background-color: #FFB4A2;
+  background-color: #F29CA3;
   border-radius: 15px;
   width: 100%;
   display: flex;
@@ -135,7 +143,7 @@
 }
 
 .navbar {
-  background-color: nth($colors, 1) !important;
+  background-color: #4F5151 !important;
   /* Estilo al ul correspondiente al menú */
 }
 
@@ -318,5 +326,6 @@ footer .footer-container .redes {
 }
 
 /*# sourceMappingURL=style.css.map */
-
 /*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
