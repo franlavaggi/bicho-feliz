@@ -7,7 +7,7 @@
 /*@import 'components/adopciones';*/
 /* Defino los colores de la paleta de la casita de Esther */
 :root {
-  font-family: "Questrial", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background-color: white;
 }
 
@@ -85,7 +85,7 @@
 /* Estilo a los botones */
 .button {
   color: #4F5151;
-  background-color: #FBD75A;
+  background-color: nth($colors, 12);
   font-size: 2em;
   text-decoration: none;
   border-radius: 0.4rem;
@@ -115,7 +115,7 @@
 /* Ataca a los botones de la seccion adopciones*/
 .button-adopciones {
   color: #4F5151;
-  background-color: #FBD75A;
+  background-color: nth($colors, 12);
   font-size: 1em;
   text-decoration: none;
   border-radius: 0.4rem;
@@ -153,14 +153,16 @@
 }
 
 .navbar .menu .menu-anchor {
-  background-color: #FBD75A;
-  font-size: 1.3rem;
+  background-color: nth($colors, 12);
+  font-size: 1.5rem;
   text-decoration: none;
   color: #4F5151;
   border-radius: 1rem;
-  padding: 7px;
+  padding: 0.3em;
   border: 1px solid burlywood;
-}
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  }
 
 .navbar .menu .menu-anchor:hover {
   color: #573D1C;
