@@ -2,17 +2,12 @@
 /* Importo los archivos de apoyo */
 /* Defino los colores de la paleta de la casita de Esther */
 :root {
-  font-family: "Questrial", sans-serif !important;
   background-color: white;
+  font-family: "Poppins", sans-serif !important;
 }
 
 /*@import 'components/adopciones';*/
 /* Defino los colores de la paleta de la casita de Esther */
-:root {
-  font-family: "Poppins", sans-serif !important;
-  background-color: white;
-}
-
 /* Extend que configura grids sin bootstrap*/
 .detalles-donaciones .explicacion-donaciones-container {
   display: grid;
@@ -30,50 +25,37 @@
 /*Estilo a la seccion principal de Home */
 .seccion-principal-home {
   width: 100%;
-  height: 100vh;
+  height: 65vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  margin-top: 0.2%;
   /* Mixin que incluye configuraciones para la bg image*/
-  background-image: url("https://i.postimg.cc/rw8G0V30/portada.jpg");
-  background-position: center center;
+  background-image: url("https://i.postimg.cc/8z70DpJV/group-portrait-adorable-puppies.jpg");
+  background-position-y: 85%;
   background-size: cover;
   /*Estilo a los botones de donar y adoptar de la home page*/
 }
 
-.seccion-principal-home .h1-home {
-  color: #FBD75A;
-  margin-top: 3%;
-  font-size: 2.5em;
-}
-
-.seccion-principal-home .buttons-container {
-  font-size: 1em;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10%;
-}
-
-/* Estilo a la section de quienes somos*/
-#quienes-somos {
-  width: 100%;
-}
-
 /* Estilo al contenedor de la foto y texto del quienes somos*/
 #presentacion-container {
-  margin: 0 2%;
+  margin: 0 1%;
   /* Estilo al parrafo de quienes somos*/
   /*Estilo a la imagen de quienes somos */
 }
 
 #presentacion-container #parrafo-presentacion {
-  font-size: 1.5rem;
+  font-size: 0.9rem;
 }
 
 #presentacion-container #foto-presentacion {
   width: 100%;
+}
+
+/* Estilo a la section de quienes somos*/
+#quienes-somos {
+  width: 100%;
+  font-family: "Poppins";
 }
 
 /* Estilo al H2 del quienes somos */
@@ -81,7 +63,8 @@
   display: flex;
   justify-content: center;
   font-size: 1.7rem;
-  margin: 3% 30%;
+  font-style: bold;
+  margin: 2% 1%;
 }
 
 /* Estilo a los botones */
@@ -182,13 +165,23 @@
 }
 
 /*Estilos a la "patita"*/
-#paw {
-  height: 100%;
+.paw {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  justify-items: center;
+  align-items: center;
   transition-duration: 3s;
 }
 
-#paw:hover {
+.paw:hover {
   transform: rotate(1800deg);
+}
+
+#paw-image {
+  width: 1.5em;
+  height: 1.5em;
 }
 
 /* Ataca a la seccion principal de adopciones*/
@@ -246,14 +239,34 @@
 }
 
 footer {
-  background-color: #A8EECC;
+  background-color: #FBD75A;
   margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  height: 30px;
 }
 
+footer img {
+  width: 2em;
+}
+
+.social-media-container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.social-media {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/*
 footer .footer-container {
   width: 50%;
   display: flex;
@@ -262,8 +275,7 @@ footer .footer-container {
 
 footer .footer-container .redes {
   height: 100%;
-}
-
+}*/
 .logo-form {
   width: 15%;
 }
