@@ -72,7 +72,7 @@ $colors:
 /* Estilo a la section de quienes somos*/
 #quienes-somos {
   width: 100%;
-  font-family: "Poppins";
+  font-family: "Delius";
 }
 
 /* Estilo al H2 del quienes somos */
@@ -149,7 +149,7 @@ $colors:
   border-radius: 1rem;
   padding: 0.3em;
   border: 1px solid burlywood;
-  font-family: "Poppins", sans-serif;
+  font-family: "Delius", sans-serif;
   font-style: bold;
 }
 
