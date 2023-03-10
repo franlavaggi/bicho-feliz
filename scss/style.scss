@@ -97,23 +97,10 @@
   margin: 10% 0;
 }
 
-/* Ataca a los botones de la seccion adopciones*/
-.button-adopciones {
-  color: #4F5151;
-  background-color: nth($colors, 12);
-  font-size: 1em;
-  text-decoration: none;
-  border-radius: 0.4rem;
-  font-weight: 400;
-  border-color: #4F5151;
-  margin: 5px 25px;
-  padding: 10px;
-  border: 2px solid burlywood;
-}
-
-.button-adopciones:hover {
-  color: #573D1C;
-  background-color: burlywood;
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
 }
 
 /* Estilo al contenedor de la barra de navegacion*/
