@@ -16,8 +16,8 @@
 }
 
 /* Extend que marca el estilo del borde punteado*/
-.requisitos-voluntariado, #tienda-grid-container .tienda-grid-item, .detalles-donaciones, .donaciones {
-  border: dashed #F47769;
+.detalles-donaciones, .donaciones {
+  border: dashed nth($colors,1);
   border-radius: 2rem;
   padding: 1%;
 }
@@ -70,7 +70,7 @@
 /* Estilo a los botones */
 .button {
   color: #4F5151;
-  background-color: nth($colors, 12);
+  background-color: nth($colors, 2);
   font-size: 2em;
   text-decoration: none;
   border-radius: 0.4rem;
@@ -113,7 +113,7 @@
 }
 
 .navbar {
-  background-color: nth($colors, 4) !important;
+  background-color: nth($colors, 2) !important;
   /* Estilo al ul correspondiente al menú */
 }
 
@@ -125,7 +125,7 @@
 }
 
 .navbar .menu .menu-anchor {
-  background-color: nth($colors, 12);
+  background-color: nth($colors, 2);
   font-size: 1.5rem;
   text-decoration: none;
   color: #4F5151;
@@ -227,7 +227,7 @@
 }
 
 footer {
-  background-color: nth($colors, 12);
+  background-color: nth($colors, 2);
   margin-top: 5%;
 }
 
@@ -264,68 +264,6 @@ footer .footer-container .redes {
   height: 100%;
 }*/
 
-.logo-form {
-  width: 15%;
-}
-
-/* Ataca a la seccion principal de tienda*/
-.seccion-principal-tienda {
-  margin: 1% 5%;
-}
-
-#tienda-grid-container {
-  /*padding: 3% 5%;
-  margin: 0 5%;*/
-}
-
-#tienda-grid-container .tienda-grid-item {
-  place-items: center;
-  text-align: center;
-  /*Ataca a todas las imagenes de la tienda */
-}
-
-#tienda-grid-container .tienda-grid-item .img-tienda {
-  width: 35%;
-}
-
-/* Estilo a la seccion principal de voluntariado*/
-.seccion-principal-voluntariado {
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  flex-direction: column;
-  margin-top: 0.2%;
-  height: 100vh;
-  width: 100%;
-  /* Mixin que incluye configuraciones para la bg image*/
-  background-image: url("https://i.postimg.cc/wBMh2W69/portada-voluntariado.jpg");
-  background-position: center center;
-  background-size: cover;
-  /* Estilo al titulo y texto de la seccion ppal de voluntariado*/
-}
-
-.seccion-principal-voluntariado #title-voluntariado-container {
-  width: 80%;
-  font-size: 2.2em;
-  color: #FBD75A;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 2%;
-  /* Estilo al texto de la seccion ppal de voluntariado */
-}
-
-.seccion-principal-voluntariado #title-voluntariado-container #texto-principal-voluntariado {
-  color: #FBD75A;
-  font-size: 0.9em;
-}
-
-.requisitos-voluntariado {
-  display: flex;
-  justify-content: center;
-  margin: 4%;
-  /*Extend que suma el estilo del borde punteado*/
-}
 
 /*# sourceMappingURL=style.css.map */
 
