@@ -40,6 +40,8 @@ $colors:
   background-color: white;
 }
 
+/* Extend que configura grids sin bootstrap*/
+/* Extend que marca el estilo del borde punteado*/
 /* Estilos a la seccion con los botones para donar*/
 .donaciones {
   margin: 2% 5%;
@@ -68,11 +70,13 @@ $colors:
   justify-content: center;
 }
 
-#vid-donaciones {
+#img-donaciones {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: url(assets/IRUYA-9.jpg);
+  background-image: url("../assets/IRUYA-9.jpg");
+  background-size: cover;
+  background-position-y: center;
   width: 20em;
   margin-left: 10em;
   border-radius: 2rem;
@@ -164,6 +168,12 @@ $colors:
 #adopciones-grid-container .adopciones-grid-item .img-adopciones {
   width: 70%;
   margin: 5%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
 }
 
 /* Estilo a los botones */
@@ -302,12 +312,6 @@ footer .footer-container {
 footer .footer-container .redes {
   height: 100%;
 }*/
-.form {
-  display: flex;
-  justify-content: center;
-  padding-top: 2%;
-}
-
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.scss.map */
 

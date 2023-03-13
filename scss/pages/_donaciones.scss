@@ -27,14 +27,14 @@
     justify-content: center;
   }
   
-  .explicacion-donaciones-item{
-    
-  }
-  #vid-donaciones {
+
+  #img-donaciones {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url(assets/IRUYA-9.jpg);
+    background-image: url("../assets/IRUYA-9.jpg");
+    background-size: cover;
+    background-position-y: center;
     width: 20em;
     margin-left: 10em;
     border-radius: 2rem;

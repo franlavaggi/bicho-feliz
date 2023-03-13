@@ -4,6 +4,9 @@
 
 @import 'base/_colors.scss';
 @import 'base/_root.scss';
+@import 'base/_extends.scss';
+@import 'base/_mixins.scss';
+@import 'base/_sizes.scss';
 
 @import 'pages/_donaciones.scss';
 @import 'pages/_index.scss';
@@ -13,16 +16,6 @@
 @import 'components/buttons';
 @import 'components/navbar';
 @import 'components/footer';
-
-.form {
-  display: flex;
-  justify-content: center;
-  padding-top: 2%;
-}
-
-
-
-
 
 /*# sourceMappingURL=style.css.map */
 
