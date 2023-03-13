@@ -1,0 +1,68 @@
+/* Estilo al contenedor de la barra de navegacion*/
+.menu-container {
+    background-color: nth($colors, 2);
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar {
+    background-color: nth($colors, 2) !important;
+    /* Estilo al ul correspondiente al menú */
+  }
+  
+  .navbar .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* Estilo a los elementos del ul de la barra de navegación*/
+  }
+  
+  .navbar .menu .menu-anchor {
+    background-color: nth($colors, 2);
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #4F5151;
+    border-radius: 1rem;
+    padding: 0.3em;
+    border: 1px solid burlywood;
+    font-family: 'Delius', sans-serif;
+    font-style: bold;
+    }
+  
+  .navbar .menu .menu-anchor:hover {
+    color: #573D1C;
+    background-color: burlywood;
+  }
+  
+  /*Ataca al logo de la barra de navegacion*/
+  #logo {
+    width: 6rem;
+    transition-duration: 1s;
+  }
+  
+  #logo:hover {
+    transform: scale(1.3);
+  }
+  
+  /*Estilos a la "patita"*/
+  .paw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-items: center;
+    align-items: center;
+    transition-duration: 3s;
+  
+  }
+  
+  .paw:hover {
+    transform: rotate(1800deg);
+  }
+  
+  #paw-image {
+    width: 1.5em;
+    height: 1.5em;
+  }

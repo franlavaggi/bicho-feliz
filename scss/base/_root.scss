@@ -1,6 +1,8 @@
 @import '_sizes.scss';
+@import '_colors.scss';
+
+$main-font: 'Delius';
 
 :root{
     background-color: nth($colors,8);
-    font-family: 'Poppins', sans-serif !important;
 }

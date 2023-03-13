@@ -1,0 +1,30 @@
+/* Estilo a los botones */
+.button {
+    color: #4F5151;
+    background-color: nth($colors, 2);
+    font-size: 1.7em;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    border-color: #4F5151;
+    margin: 10% 0;
+    padding: 10px;
+    border: 2px solid burlywood;
+  }
+  
+  
+  .button:hover {
+    color: #573D1C;
+    background-color: burlywood;
+  }
+  
+  /* Estilo al botón principal de voluntariado*/
+  #button-container-voluntariado {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3%;
+  }
+  
+  /* Estilo a los botones de la home page*/
+  .home-button {
+    margin: 10% 0;
+  }
