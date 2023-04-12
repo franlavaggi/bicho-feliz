@@ -3,12 +3,12 @@
     color: #4F5151;
     background-color: nth($colors, 2);
     font-size: 1.7em;
+    font-family: $main-font;
     text-decoration: none;
     border-radius: 0.4rem;
-    border-color: #4F5151;
-    margin: 10% 0;
+    border-color: nth($colors, 8);
     padding: 10px;
-    border: 2px solid burlywood;
+    border: 2px solid;
   }
   
   

@@ -1,25 +1,11 @@
 
 /* Ataca a la seccion principal de adopciones*/
-.seccion-principal-adopciones {
+.seccion-principal-sumate{
     margin: 1% 5%;
-  }
-  
-  #adopciones-grid-container {
-    margin: 0 5%;
-  }
-  
-  #adopciones-grid-container .adopciones-grid-item {
-    place-items: center;
-    text-align: center;
-  }
-  
-  #adopciones-grid-container .adopciones-grid-item .adopciones-title {
-    margin: 0;
-  }
-  
-  #adopciones-grid-container .adopciones-grid-item .img-adopciones {
-    width: 70%;
-    margin: 5%;
+    font-family: 'Delius';
+    p{
+      font-family: 'Montserrat';
+    }
   }
   
   .form {

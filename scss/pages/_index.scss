@@ -23,24 +23,41 @@
   
   #presentacion-container #parrafo-presentacion {
     font-size: 1em;
+    font-family: 'Montserrat';
+    margin-left: 2%;
   }
   
   #presentacion-container #foto-presentacion {
     width: 100%;
   }
+
+  #foto-presentacion {
+    border: dashed nth($colors,1);
+    border-radius: 2rem;
+  }
   
   /* Estilo a la section de quienes somos*/
   #quienes-somos {
     width: 100%;
-    font-family: 'Delius';
   }
   
   /* Estilo al H2 del quienes somos */
   #title-quienes-somos {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     font-size: 1.7rem;
     font-style: bold;
     margin: 2% 1%;
+    font-family: 'Delius';
+  }
+
+  .container-buttons-index{
+    margin-top: 2%;
+    .button-index{
+      display: flex;
+      justify-content: center;
+      padding: 0%;
+    }
   }
   

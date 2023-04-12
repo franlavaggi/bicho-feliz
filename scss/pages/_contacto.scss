@@ -1,0 +1,28 @@
+
+.contacto{
+    font-family: $main-font;
+    margin: 2% 5%;
+
+    .img-contacto{
+    background-image: url("../assets/IMG_0925.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    height: 20rem;
+    border: dashed nth($colors,1);
+    border-radius: 2rem;
+    }
+
+    .listado-contacto{
+        border: dashed nth($colors,1);
+        border-radius: 2rem;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .contacto-item{
+            margin: 1% 0%;
+        }
+    }
+}
