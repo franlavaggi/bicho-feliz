@@ -7,45 +7,8 @@
     font-family: $main-font;
   }
 
-  /*
-  .detalles-donaciones {
-    display: flex;
-    margin: 2% 5%;
-    flex-direction: column;
-    font-family: $main-font;
-  }*/
   
-  /*
-  .detalles-donaciones .explicacion-donaciones-container #objetivo-donaciones {
-    margin-right: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Montserrat';
-  }*/
-  
-/*
-  #img-donaciones {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-image: url("../assets/Bicho1.png");
-    background-size: cover;
-    background-position-y: center;
-    width: 20em;
-    margin-left: 10em;
-    border-radius: 2rem;
-  }*/
-
-  
-/* Extend que configura grids sin bootstrap*//*
-.detalles-donaciones .explicacion-donaciones-container {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }*/
-  
-  /* Extend que marca el estilo del borde punteado*/
+  /* Estilo del borde punteado*/
   .detalles-donaciones, .donaciones {
     border: dashed nth($colors,1);
     border-radius: 2rem;
