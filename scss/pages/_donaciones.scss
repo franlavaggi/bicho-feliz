@@ -1,59 +1,59 @@
 /* Estilos a la seccion con los botones para donar*/
 
-.donaciones {
-    margin: 2% 5%;
-  }
-  
-  .donaciones .donaciones-item {
-    place-items: center;
+  .donaciones-item {
     display: flex;
-    justify-content: space-evenly;
-    margin: 1%;
+    justify-content: center;
+    padding: 2%;
     font-family: $main-font;
   }
-  
-  /* Estilos a la seccion con parrafo y video sobre donaciones*/
+
+  /*
   .detalles-donaciones {
     display: flex;
     margin: 2% 5%;
     flex-direction: column;
     font-family: $main-font;
-  }
+  }*/
   
+  /*
   .detalles-donaciones .explicacion-donaciones-container #objetivo-donaciones {
     margin-right: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-family: 'Montserrat';
-  }
+  }*/
   
-
+/*
   #img-donaciones {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("../assets/IMG_0925.jpg");
+    background-image: url("../assets/Bicho1.png");
     background-size: cover;
     background-position-y: center;
     width: 20em;
     margin-left: 10em;
     border-radius: 2rem;
-  }
+  }*/
 
   
-/* Extend que configura grids sin bootstrap*/
+/* Extend que configura grids sin bootstrap*//*
 .detalles-donaciones .explicacion-donaciones-container {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
+  }*/
   
   /* Extend que marca el estilo del borde punteado*/
   .detalles-donaciones, .donaciones {
     border: dashed nth($colors,1);
     border-radius: 2rem;
     padding: 1%;
+    font-family: $main-font;
+    display: flex;
+    margin: 2% 5%;
+    flex-direction: column;
     font-family: $main-font;
   }
 
@@ -87,4 +87,11 @@
     background-image: url("https://i.postimg.cc/8z70DpJV/group-portrait-adorable-puppies.jpg");
     background-position-y: 85%;
     background-size: cover;
+  }
+
+  .img-donaciones{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
