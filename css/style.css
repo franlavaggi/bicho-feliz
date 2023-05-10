@@ -120,7 +120,7 @@ $colors:
 .banner-club {
   width: 100%;
   height: 65vh;
-  background-image: url("https://i.postimg.cc/8z70DpJV/group-portrait-adorable-puppies.jpg");
+  background-image: url("../assets/banners/BannerClubDesktop.jpg");
   background-position-y: 85%;
   background-size: cover;
 }
@@ -134,16 +134,17 @@ $colors:
 
 /*Estilo a la seccion principal de Home */
 .seccion-principal-home {
+  padding: 0% 5%;
   width: 100%;
-  height: 65vh;
+  height: 50vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   /* Mixin que incluye configuraciones para la bg image*/
-  background-image: url("https://i.postimg.cc/8z70DpJV/group-portrait-adorable-puppies.jpg");
-  background-position-y: 85%;
-  background-size: cover;
+  background-image: url("../assets/banners/BannerHomeDesktop.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   /*Estilo a los botones de donar y adoptar de la home page*/
 }
 
@@ -160,12 +161,17 @@ $colors:
   margin-left: 2%;
 }
 
-#presentacion-container #foto-presentacion {
+#presentacion-container .foto-container {
+  display: flex;
+  align-items: center;
+}
+#presentacion-container .foto-container #foto-presentacion {
   width: 100%;
 }
 
 /* Estilo a la section de quienes somos*/
 #quienes-somos {
+  padding: 0% 5%;
   width: 100%;
 }
 
@@ -182,6 +188,7 @@ $colors:
 
 .container-buttons-index {
   margin-top: 2%;
+  padding: 0% 20%;
 }
 .container-buttons-index .button-index {
   display: flex;
@@ -226,6 +233,16 @@ $colors:
 .contacto .listado-contacto .contacto-item {
   margin: 2% 0%;
 }
+.contacto .listado-contacto .contacto-item .contacto-link {
+  font-family: "Delius";
+  color: black;
+  text-decoration: none;
+}
+.contacto .listado-contacto .contacto-item .contacto-link .contacto-link:hover {
+  font-style: bold;
+  text-decoration: underline;
+  font-size: x-large;
+}
 
 /* Estilo a los botones */
 .button {
@@ -268,6 +285,7 @@ $colors:
 
 .navbar {
   background-color: #70C7AD !important;
+  padding: 0% 5%;
   /* Estilo al ul correspondiente al menú */
 }
 

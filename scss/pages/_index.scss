@@ -1,16 +1,17 @@
 
 /*Estilo a la seccion principal de Home */
 .seccion-principal-home {
+    padding: 0% 5%;
     width: 100%;
-    height: 65vh;
+    height: 50vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     /* Mixin que incluye configuraciones para la bg image*/
-    background-image: url("https://i.postimg.cc/8z70DpJV/group-portrait-adorable-puppies.jpg");
-    background-position-y: 85%;
-    background-size: cover;
+    background-image: url("../assets/banners/BannerHomeDesktop.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     /*Estilo a los botones de donar y adoptar de la home page*/
   }
   
@@ -27,13 +28,19 @@
     margin-left: 2%;
   }
   
-  #presentacion-container #foto-presentacion {
-    width: 100%;
+  #presentacion-container .foto-container{
+    display: flex;
+    align-items: center;
+      
+    #foto-presentacion{
+      width: 100%;
+    }
   }
 
 
   /* Estilo a la section de quienes somos*/
   #quienes-somos {
+    padding: 0% 5%;
     width: 100%;
   }
   
@@ -50,6 +57,7 @@
 
   .container-buttons-index{
     margin-top: 2%;
+    padding: 0% 20%;
     .button-index{
       display: flex;
       justify-content: center;
