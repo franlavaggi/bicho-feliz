@@ -81,7 +81,7 @@ $colors:
 }
 
 /* Estilo del borde punteado*/
-.detalles-donaciones, .donaciones {
+.detalles-donaciones, .donaciones, .transferencias-container {
   border: dashed #70C7AD;
   border-radius: 2rem;
   padding: 1%;
@@ -89,7 +89,9 @@ $colors:
   display: flex;
   margin: 2% 5%;
   flex-direction: column;
-  font-family: "Delius";
+}
+.detalles-donaciones .datos-transferencias, .donaciones .datos-transferencias, .transferencias-container .datos-transferencias {
+  font-size: 1.5em;
 }
 
 .seccion-principal {
@@ -308,7 +310,7 @@ $colors:
   font-style: bold;
 }
 
-.navbar .menu .menu-anchor:hover {
+.navbar .menu .menu-anchor:hover, .navbar .menu .active {
   color: #573D1C;
   background-color: burlywood;
 }
