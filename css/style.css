@@ -70,9 +70,7 @@ $colors:
   background-color: #3A405A;
 }
 
-/* Extend que configura grids sin bootstrap*/
-/* Extend que marca el estilo del borde punteado*/
-/* Estilos a la seccion con los botones para donar*/
+/* Extend que marca el estilo del borde punteado*/ /* Estilos a la seccion con los botones para donar*/
 .donaciones-item {
   display: flex;
   justify-content: center;
@@ -193,7 +191,7 @@ $colors:
 
 .container-buttons-index {
   margin-top: 2%;
-  padding: 0% 20%;
+  padding: 0% 5%;
 }
 .container-buttons-index .button-index {
   display: flex;
@@ -203,17 +201,20 @@ $colors:
 
 /* Ataca a la seccion principal de adopciones*/
 .seccion-principal-sumate {
-  margin: 1% 5%;
+  margin: 2% 5%;
   font-family: "Delius";
 }
 .seccion-principal-sumate p {
   font-family: "Montserrat";
 }
 
-.form {
+.container-buttons-sumate {
+  margin: 2% 5%;
+}
+.container-buttons-sumate .sumate-item {
   display: flex;
   justify-content: center;
-  padding-top: 2%;
+  align-content: center;
 }
 
 .contacto {
