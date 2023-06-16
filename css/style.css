@@ -140,18 +140,17 @@ $colors:
 
 /*Estilo a la seccion principal de Home */
 .seccion-principal-home {
-  padding: 0% 5%;
-  width: 100%;
-  height: 50vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   /* Mixin que incluye configuraciones para la bg image*/
   background-image: url("../assets/banners/BannerHomeDesktop.jpg");
-  background-size: contain;
+  width: 100%;
+  height: 55vh;
+  background-size: cover;
   background-repeat: no-repeat;
-  /*Estilo a los botones de donar y adoptar de la home page*/
+  background-position: center;
 }
 
 /* Estilo al contenedor de la foto y texto del quienes somos*/
