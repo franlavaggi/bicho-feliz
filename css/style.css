@@ -113,6 +113,7 @@ $colors:
 
 .container-button-club {
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .button-club {
@@ -122,10 +123,12 @@ $colors:
 
 .banner-club {
   width: 100%;
-  height: 65vh;
+  height: 55vh;
   background-image: url("../assets/banners/BannerClubDesktop.jpg");
-  background-position-y: 85%;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .img-donaciones {
