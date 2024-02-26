@@ -36,7 +36,7 @@
   <title>Bicho Feliz</title>
 </head>
 
-<body>
+<body class="contenedor">
   <header>
     <!--  El header incluye a la barra de navegación -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -71,107 +71,86 @@
     </nav>
   </header>
 
-  <section class="club">
-    <h1>Donaciones</h1>
-    <h2>¡Formá parte de Club Bicho Feliz!</h2>
-      <p class="p-club"> 
-        Suscribite y hacé tu aporte mensual para colaborar con Bicho, así vas a poder acceder a 
-        descuentos exclusivos para quienes forman parte del Club.
-        <br><br>
-        Es nuestra manera de agradecer a quienes todos los meses nos ayudan enconómicamente 
-        para que podamos seguir rescatando Bichos que están en la calle. Sin esta ayuda, tu ayuda, 
-        no podríamos hacer ni la mitad de lo que hacemos.
-      </p>
-
-      <div class="row container-button-club">
-        <div class="col-md-3"></div>
-        <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380847d94c2ef017da1d3711606e8" class = "button col-md-6 button-club" target="_blank">
-          ¡Quiero sumarme a Club Bicho Feliz!
-        </a>
-        <div class="col-md-3"></div>
-      </div>
-      <div class="banner-club"></div>
-  </section>
-
-  <section class="seccion-principal">
-    <h2> Donaciones Mensuales</h2>
-    <p> Doná mensualmente a través de mercadopago para ayudarnos a seguir rescatando y ayudando a
-      nuestros amigos de cuatro patas.
-    </p>
-  </section>
-
-  <section class="donaciones">
-    <div>
-      <h2>Elegí el monto que quieras:</h2>
-    </div>
-
-    <div class="row">
-      <div class="donaciones-item col-md-4">
-        <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084888a408101888b86d2ce002c" class="button" target="_blank"><b>$500.-</b> / mes</a>
-      </div>
-
-      <div class="donaciones-item col-md-4">
-        <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848876a8ea01888b883d140a35" class="button" target="_blank"><b>$800.-</b> / mes</a>
-      </div>
-
-      <div class="donaciones-item col-md-4">
-        <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848884e39001888b88cd1403dc" class="button" target="_blank"><b>$1000.-</b> / mes </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="detalles-donaciones">
-    <div>
-      <h2>¿Qué hacemos con las donaciones?</h2>
-    </div>
-
-    <article class="row">
-      <div class="col-md-8">
-        <p>
-          <br>Gracias a la colaboración de personas como vos, todos los meses podemos rescatar a muchos animales.
+  <div class="info">
+    <section class="club">
+      <h1>Donaciones</h1>
+      <h2>¡Formá parte de Club Bicho Feliz!</h2>
+        <p class="p-club"> 
+          Suscribite y hacé tu aporte mensual para colaborar con Bicho, así vas a poder acceder a 
+          descuentos exclusivos para quienes forman parte del Club.
           <br><br>
-          El dinero que llega se destina tanto a los tratamientos, medicinas y alimentos de los bichos rescatados 
-          y en tránsito, como a diferentes operativos de castración para evitar que nuevas camadas tengan que pasar 
-          su vida en la calle.
-          <br><br>
-          Operaciones, medicamentos, consultas a los vetes, alimento y todo lo que implica el bienestar del animal 
-          se consigue y se lleva a cabo gracias al aporte de muchas personas. ¡Gracias por ser parte!
+          Es nuestra manera de agradecer a quienes todos los meses nos ayudan enconómicamente 
+          para que podamos seguir rescatando Bichos que están en la calle. Sin esta ayuda, tu ayuda, 
+          no podríamos hacer ni la mitad de lo que hacemos.
         </p>
-      </div>
-      <div class="col-md-4">
-        <img src="https://i.postimg.cc/GhQt2JGv/Bicho1.png" class="img-donaciones" alt=""> 
-        <!-- <video id="vid-donaciones" src="video/video-donaciones.mp4" controls></video>-->
-      </div>
-    </article>
-  </section>
 
-  <section class="transferencias-container">
+        <div class="row container-button-club">
+          <div class="col-md-3"></div>
+          <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380847d94c2ef017da1d3711606e8" class = "button col-md-6 button-club" target="_blank">
+            ¡Quiero sumarme a Club Bicho Feliz!
+          </a>
+          <div class="col-md-3"></div>
+        </div>
+        <div class="banner-club"></div> <!-- PARA QUE ALGO SE VEA SOLO EN PANTALLAS GRANDES (d-none d-lg-block) -->
+    </section>
+
+    <section class="seccion-principal">
+      <h2> Donaciones Mensuales</h2>
+      <p> Doná mensualmente a través de mercadopago para ayudarnos a seguir rescatando y ayudando a
+        nuestros amigos de cuatro patas.
+      </p>
+    </section>
+
+    <section class="donaciones">
       <div>
-        <h2>Transferencias a través de mercadopago</h2>
+        <h2>Elegí el monto que quieras:</h2>
       </div>
-      
+
+      <div class="row">
+        <div class="donaciones-item col-md-4">
+          <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c938084888a408101888b86d2ce002c" class="button" target="_blank"><b>$500.-</b> / mes</a>
+        </div>
+
+        <div class="donaciones-item col-md-4">
+          <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848876a8ea01888b883d140a35" class="button" target="_blank"><b>$800.-</b> / mes</a>
+        </div>
+
+        <div class="donaciones-item col-md-4">
+          <a href="https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848884e39001888b88cd1403dc" class="button" target="_blank"><b>$1000.-</b> / mes </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion-principal">
+      <h4>Transferencias a través de mercadopago</h4>
+    </section>
+
+    <section class="transferencias-container">        
       <div class="datos-transferencias">
         <div class="row">
           <div class="col-md-12">
-            FUNDACION BICHO FELIZ RED DE RESCATE ANIM
+            FUNDACION BICHO FELIZ RED DE RESCATE ANIMALES
           </div>      
         </div>
-      
+        
         <div class="row">
           <div class="col-md-12">
-            <b>CVU: </b>0000003100014822105285
+            <b>CVU: </b>
+            <p>0000003100014822105285</p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-12">
-            <b>Alias: </b>bichofelizmp
+            <b>Alias: </b>
+            <p>bichofelizmp</p>
           </div>      
         </div>
 
         <div class="row">
           <div class="col-md-12">
-            <b>CUIT/CUIL: </b> 30717370518
+            <b>CUIT/CUIL: </b>
+            <p>30717370518</p>
           </div>
         </div>
 
@@ -188,35 +167,64 @@
         <div class="col-md-4"></div>
 
       </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="seccion-principal">
+      <h4>Transferencias bancarias</h4>
+    </section>
 
-  <section class="transferencias-container">
-    <div>
-      <h2>Transferencias bancarias</h2>
-    </div>
+    <section class="transferencias-container">
+      <div class="datos-transferencias">
+        <div class="row">
+          <div class="col-md-12">
+            <b>CBU: </b>
+            <p>0290023000000502029446</p>
+          </div>
+        </div>
 
-    <div class="datos-transferencias">
-      <div class="row">
-        <div class="col-md-12">
-          <b>CBU: </b>0290023000000502029446
+        <div class="row">
+          <div class="col-md-12">
+            <b>Alias: </b>
+            <p>BichoFelizCiudad</p>
+          </div>      
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <b>Número de cuenta: </b>
+            <p>CC 000302300050202944 (Banco Ciudad)</p>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="col-md-12">
-          <b>Alias: </b>BichoFelizCiudad
-        </div>      
-      </div>
+    <section class="seccion-principal">
+      <h4>¿Qué hacemos con las donaciones?</h4>
+    </section>
 
-      <div class="row">
-        <div class="col-md-12">
-          <b>Número de cuenta: </b>CC 000302300050202944 (Banco Ciudad)
+    <section class="detalles-donaciones">
+
+      <article class="col d-flex flex-md-row flex-column">
+        <div class="col-md-8">
+          <p>
+            <br>Gracias a la colaboración de personas como vos, todos los meses podemos rescatar a muchos animales.
+            <br><br>
+            El dinero que llega se destina tanto a los tratamientos, medicinas y alimentos de los bichos rescatados 
+            y en tránsito, como a diferentes operativos de castración para evitar que nuevas camadas tengan que pasar 
+            su vida en la calle.
+            <br><br>
+            Operaciones, medicamentos, consultas a los vetes, alimento y todo lo que implica el bienestar del animal 
+            se consigue y se lleva a cabo gracias al aporte de muchas personas. ¡Gracias por ser parte!
+          </p>
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="col-md-4">
+          <img src="https://i.postimg.cc/GhQt2JGv/Bicho1.png" class="img-donaciones" alt=""> 
+          <!-- <video id="vid-donaciones" src="video/video-donaciones.mp4" controls></video>-->
+        </div>
+      </article>
+    </section>
+  </div>
+
   <footer>
     <!-- Grid container -->
     <div class="social-media-container">

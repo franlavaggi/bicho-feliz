@@ -36,7 +36,7 @@
   <title>Bicho Feliz</title>
 </head>
 
-<body>
+<body class="contenedor">
   <header>
     <!--  El header incluye a la barra de navegación -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -48,7 +48,7 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse menu-container" id="navbarNav">
+        <div class="collapse navbar-collapse menu-container d-flex flex-md-row flex-column" id="navbarNav">
           <ul class="navbar-nav menu">
             <li class="nav-item menu-item">
               <a class="nav-link active menu-anchor" aria-current="page" href="index.html">¿Quiénes somos?</a>
@@ -72,66 +72,66 @@
   </header>
 
   <!-- Esta section incluye a la imagen de portada y a los botones de adoptar y donar-->
+  <div class="info">
+    <div class="seccion-principal-home"></div>
 
-  <div class="seccion-principal-home"></div>
-
-  <div id="title-quienes-somos">
-    <h2>¿Quiénes somos?</h2>
-  </div>
-
-  <section id="quienes-somos"> <!-- Esta seccion explica quienes somos, se encuentra en la pantalla ppal-->
-    <article id="presentacion-container" class="row gy-4">
-      <div class="col-md-3 foto-container">
-        <img id="foto-presentacion" src="https://i.postimg.cc/0jv55bNt/Bicho2.png" alt="Perro con collar de bicho feliz">
-      </div>
-      <div class="col-md-9">
-        <p id="parrafo-presentacion">
-          En Bicho Feliz creemos que si queremos cambiar la vida de los animales abandonados en la calle necesitamos
-          trabajar en equipo. Desde el 2015 rescatamos perros y gatos en situación de calle, abandonados y maltratados.
-          Para esto formamos una Fundación de la cual hoy en día formamos parte 50 voluntarios que con mucho amor y más
-          voluntad queremos cambiar la vida de estos seres.
-          <br><br>
-          Creemos que es importante el control de la sobrepoblación de animales mediante castraciones, cuidados en su
-          salud y educación a las personas para evitar más abandonos.
-          <br>
-          Desde el inicio hasta hoy llevamos 1260 adopciones aproximadamente y son más las vidas que pudimos salvar de
-          muchas enfermedades, accidentes o muerte mediante el trabajo que hacemos todos los días.
-          <br><br>
-          No tenemos un refugio o lugar donde transitamos a los animales que rescatamos, lo hacemos en nuestras casas ya
-          que para poder darlo en adopción vemos su comportamiento, salud y relación con otros animales y personas.
-          <br><br>
-          Tenemos la esperanza de que algún día no tengamos que estar haciendo nuestro trabajo voluntario porque no hay
-          animales en la calle, mientras tanto seguimos soñando, y creciendo día a día para poder hacer un mundo un poco
-          más justo para los animales.
-          <br><br>
-          Estamos necesitando siempre personas que se involucren, familias que quieran ser hogar de tránsito para estos
-          rescatados, que abran las puertas de su casa y su corazón para ayudarnos a hacer más bichos felices.
-        </p>
-      </div>
-      </arcticle>
-  </section>
-
-
-  <section class="container-fluid container-buttons-index">
-    <div class="row gx-4 d-flex justify-content-center">
-      <div class="col-md-4 button-index">
-        <a href="https://forms.gle/FEb1VR5Tiv7LyEYC7" class="button" target="_blank">
-          ¡Quiero Adoptar!
-        </a>
-      </div>
-      <div class="col-md-4 button-index">
-        <a href="sumate.html" class="button">
-          ¡Sumate!
-        </a>
-      </div>
-      <div class="col-md-4 button-index">
-        <a href="donaciones.html" class="button">
-          ¡Quiero Donar!
-        </a>
-      </div>
+    <div id="title-quienes-somos">
+      <h2>¿Quiénes somos?</h2>
     </div>
-  </section>
 
+    <section id="quienes-somos"> <!-- Esta seccion explica quienes somos, se encuentra en la pantalla ppal-->
+      <article id="presentacion-container" class="row gy-4">
+        <div class="col-md-3 foto-container">
+          <img id="foto-presentacion" src="https://i.postimg.cc/0jv55bNt/Bicho2.png" alt="Perro con collar de bicho feliz">
+        </div>
+        <div class="col-md-9">
+          <p id="parrafo-presentacion">
+            En Bicho Feliz creemos que si queremos cambiar la vida de los animales abandonados en la calle necesitamos
+            trabajar en equipo. Desde el 2015 rescatamos perros y gatos en situación de calle, abandonados y maltratados.
+            Para esto formamos una Fundación de la cual hoy en día formamos parte 50 voluntarios que con mucho amor y más
+            voluntad queremos cambiar la vida de estos seres.
+            <br><br>
+            Creemos que es importante el control de la sobrepoblación de animales mediante castraciones, cuidados en su
+            salud y educación a las personas para evitar más abandonos.
+            <br>
+            Desde el inicio hasta hoy llevamos 1260 adopciones aproximadamente y son más las vidas que pudimos salvar de
+            muchas enfermedades, accidentes o muerte mediante el trabajo que hacemos todos los días.
+            <br><br>
+            No tenemos un refugio o lugar donde transitamos a los animales que rescatamos, lo hacemos en nuestras casas ya
+            que para poder darlo en adopción vemos su comportamiento, salud y relación con otros animales y personas.
+            <br><br>
+            Tenemos la esperanza de que algún día no tengamos que estar haciendo nuestro trabajo voluntario porque no hay
+            animales en la calle, mientras tanto seguimos soñando, y creciendo día a día para poder hacer un mundo un poco
+            más justo para los animales.
+            <br><br>
+            Estamos necesitando siempre personas que se involucren, familias que quieran ser hogar de tránsito para estos
+            rescatados, que abran las puertas de su casa y su corazón para ayudarnos a hacer más bichos felices.
+          </p>
+        </div>
+        </arcticle>
+    </section>
+
+
+    <section class="container-fluid container-buttons-index">
+      <div class="row gx-4 d-flex justify-content-center">
+        <div class="col-md-4 button-index">
+          <a href="https://forms.gle/FEb1VR5Tiv7LyEYC7" class="button" target="_blank">
+            ¡Quiero Adoptar!
+          </a>
+        </div>
+        <div class="col-md-4 button-index">
+          <a href="sumate.html" class="button">
+            ¡Sumate!
+          </a>
+        </div>
+        <div class="col-md-4 button-index">
+          <a href="donaciones.html" class="button">
+            ¡Quiero Donar!
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
   <footer>
     <!-- Grid container -->
     <div class="social-media-container">
